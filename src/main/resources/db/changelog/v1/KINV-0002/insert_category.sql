@@ -1,0 +1,14 @@
+insert into category(id, updated, created, name) values ('9ce6dac7-6bfd-48ad-8f6a-971399735b4f', now(), now(), 'STYLE_FASHION');
+insert into category(id, updated, created, name) values ('c6082ac1-f416-47f1-bbbe-15d116692daf', now(), now(), 'HOME_GARDEN');
+insert into category(id, updated, created, name) values ('2518b8e7-e559-4699-9c8a-22e995c4a847', now(), now(), 'SPORT');
+insert into category(id, updated, created, name) values ('6fc4f527-a7e3-4e3c-9f06-825fd9d9a48a', now(), now(), 'PET');
+insert into category(id, updated, created, name) values ('0c210ac7-afbe-4b47-aced-93a60bdb7ca2', now(), now(), 'MEDICAL_HEALTH');
+insert into category(id, updated, created, name) values ('f01df166-7e4f-4d46-ba10-037a1cd50cbc', now(), now(), 'CHILDREN');
+insert into category(id, updated, created, name) values ('3edd7f0d-d293-4afd-93fb-cf69e1726e42', now(), now(), 'BOOK');
+insert into category(id, updated, created, name) values ('52c02d4f-eeaf-45cd-a6fa-c3673f2a26a7', now(), now(), 'HOBBY_ART');
+insert into category(id, updated, created, name) values ('0dc9a4d3-e363-466e-ad9d-ec6dc644b968', now(), now(), 'FOOD');
+insert into category(id, updated, created, name) values ('419ddfdc-d370-47a4-8188-d704eb8f02cc', now(), now(), 'DRINK');
+insert into category(id, updated, created, name) values ('1e2cd253-0feb-46fb-b753-b9949e6bcc30', now(), now(), 'FURNITURE');
+insert into category(id, updated, created, name) values ('14c720e3-2cd7-42c6-90cf-d7df2bb54fa7', now(), now(), 'CAR_SERVICE');
+insert into category(id, updated, created, name) values ('e4776cd5-7d65-4b82-aa7d-40b2f66cc4e2', now(), now(), 'ELECTRONICS');
+insert into category(id, updated, created, name) values ('aa55acef-cbbd-4084-b353-7c10197279eb', now(), now(), 'OTHER');
