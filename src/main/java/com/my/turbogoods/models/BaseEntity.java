@@ -25,8 +25,9 @@ abstract class BaseEntity {
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     private UUID id;
 
+    @Column(updatable = false)
     private Instant created;
-
+    @Column(insertable = false)
     private Instant updated;
 
     @PrePersist
