@@ -1,12 +1,23 @@
 package com.my.turbogoods.services;
 
-import com.my.turbogoods.dto.product.ProductGetDto;
-import com.my.turbogoods.dto.product.ProductGetFullDto;
+import com.my.turbogoods.dto.product.ProductFullResponse;
+import com.my.turbogoods.dto.product.ProductListResponse;
+import com.my.turbogoods.dto.product.ProductResponse;
+import com.my.turbogoods.dto.product.ProductRequest;
 
 import java.util.UUID;
 
 public interface ProductService {
-    ProductGetFullDto getFullProductInfo(UUID id);
+    ProductFullResponse getFullProductInfo(UUID id);
 
-    ProductGetDto getProductInfo(UUID id);
+    ProductResponse getProductInfo(UUID id);
+
+    ProductListResponse getFullProductList(Integer page, Integer size);
+
+    ProductFullResponse saveProduct(ProductRequest productRequest);
+
+    void deleteProduct(UUID id);
+
+    ProductFullResponse updateProduct(UUID id, ProductRequest productRequest);
+
 }

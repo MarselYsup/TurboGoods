@@ -27,7 +27,7 @@ public class ProductEntity extends BaseEntity{
     @Column(nullable = false)
     private Integer count;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "category_id")
     private CategoryEntity categoryEntity;
 
